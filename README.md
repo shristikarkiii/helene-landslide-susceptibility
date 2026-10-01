@@ -7,6 +7,8 @@ elevation, land cover and rainfall data into a 30 m landslide susceptibility
 map. The model is trained on three counties and then **tested on two counties
 it never saw**.
 
+**[Open the interactive web map (ArcGIS Online)](https://www.arcgis.com/apps/mapviewer/index.html?webmap=4dc94f8b21f7494eb5b4714f158e56a6)**: click any hexagon or landslide for details.
+
 ![Layout](outputs/figures/layout.png)
 
 ## Result
@@ -102,6 +104,7 @@ propy scripts/run_pipeline.py train                         # ~5 min per model
 propy scripts/run_pipeline.py evaluate                      # -> outputs/evaluation_test_counties.csv
 propy scripts/usgs_regional_check.py
 propy scripts/make_figures.py && propy scripts/make_aprx.py # figures + HeleneLandslide.aprx layout
+propy scripts/publish_agol.py                               # hexagon summary -> public web map
 python -m pytest tests                                      # metric unit tests, no ArcGIS needed
 ```
 
