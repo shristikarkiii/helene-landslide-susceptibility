@@ -1,4 +1,4 @@
-# Hurricane Helene Landslide Susceptibility — a custom ArcGIS Pro toolbox
+# Hurricane Helene Landslide Susceptibility 
 
 Hurricane Helene dropped up to 32 inches of rain on western North Carolina in
 September 2024 and set off more than 2,000 landslides. This project builds an
