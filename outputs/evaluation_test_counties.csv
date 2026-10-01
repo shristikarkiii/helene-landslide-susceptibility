@@ -1,0 +1,5 @@
+raster,n_landslides,n_background,auc,auc_95ci,top5pct_capture,top10pct_capture,top20pct_capture
+suscep_full,245,20000,0.819,0.789-0.844,0.445,0.567,0.71
+suscep_terrain,245,20000,0.822,0.791-0.846,0.445,0.563,0.727
+slope,245,20000,0.772,0.738-0.801,0.208,0.392,0.657
+USGS_NWS_LS_hazard.tif,245,20000,0.495,0.459-0.527,0.008,0.061,0.241

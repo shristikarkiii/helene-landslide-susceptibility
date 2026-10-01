@@ -1,0 +1,4 @@
+landslides=2217 background=20000
+regional AUC=0.915 (95% CI 0.910-0.920)
+top10pct_capture=0.689
+distinct hazard values at test-county landslides=34
