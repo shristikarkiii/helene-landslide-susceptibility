@@ -1,0 +1,15 @@
+# Downloaded inputs (re-fetch with scripts/download_data.sh) and ArcGIS working data
+data/raw/
+data/*.gdb/
+*.lock
+*.aux.xml
+*.ovr
+outputs/log_*.txt
+__pycache__/
+.backups/
+outputs/**/*.csv.xml
+outputs/**/schema.ini
+outputs/*.csv.xml
+outputs/schema.ini
+data/
+*.pyt.xml
